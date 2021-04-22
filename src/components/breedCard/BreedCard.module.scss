@@ -1,0 +1,50 @@
+.BreedCard {
+    display: flex;
+    justify-content: center;
+    
+    &_container{
+        border: 5px solid purple;
+        border-radius: 10px;
+        width: 290px;
+        height: 400px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            'breed_name breed_name'
+            'country breed_origin'
+            'coat pattern';    
+    }
+
+    &_Name {
+        grid-area: breed_name;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 3px solid purple;
+       
+    }
+    &_Country {
+        grid-area: country; 
+        text-align: center;
+    }
+
+    &_Origin {
+        grid-area: breed_origin; 
+        text-align: center;
+    }
+
+    &_Coat {
+        grid-area: coat; 
+        text-align: center;
+    }
+    &_Pattern {
+        grid-area: pattern; 
+        text-align: center;
+    }
+    
+    &_Icon {
+        padding-left: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,23 @@
+.Navbar {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid purple;
+    margin-bottom: 30px;
+
+    &_logo {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    &_header {
+        margin-left: 10px;
+        color: purple;
+    }
+
+    &_link {
+        text-decoration: none;
+    }
+}

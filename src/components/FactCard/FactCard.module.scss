@@ -1,0 +1,14 @@
+
+.FactCard {
+    display: flex;
+    flex-direction: row;
+    border-style: groove;
+    margin: 5px;
+    flex-basis: 32%;
+
+    &_Text {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+  }
